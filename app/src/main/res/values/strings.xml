@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Covid19</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_data">there is no available data</string>
+    <string name="no_internet">there is no internet connection, try again</string>
+    <string name="error">someting went wrong , try again</string>
+</resources>
