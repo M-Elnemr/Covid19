@@ -1,7 +1,7 @@
-package com.covid19.presenter;
+package com.covid19.mvp.presenter;
 
-import com.covid19.model.DetailsContract;
-import com.covid19.model.DetailsModel;
+import com.covid19.mvp.model.DetailsContract;
+import com.covid19.mvp.model.DetailsModel;
 import com.covid19.responses.CasesByCountryResponse;
 
 import java.util.List;

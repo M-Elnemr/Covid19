@@ -1,7 +1,9 @@
-package com.covid19.model;
+package com.covid19.mvp.model;
 
 import com.covid19.network.RetrofitClient;
 import com.covid19.responses.SummaryResponse;
+
+import javax.inject.Inject;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -11,6 +13,7 @@ public class SummaryModel implements SummaryContract.IModel {
 
     private SummaryContract.IPresenter presenter;
 
+    @Inject
     public SummaryModel(SummaryContract.IPresenter presenter) {
         this.presenter = presenter;
     }

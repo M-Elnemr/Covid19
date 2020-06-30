@@ -19,13 +19,11 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout mainContainer;
     public static TSnackbar bSnack;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
         init();
     }
 

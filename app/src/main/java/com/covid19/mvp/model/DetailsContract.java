@@ -1,4 +1,4 @@
-package com.covid19.model;
+package com.covid19.mvp.model;
 
 import com.covid19.responses.CasesByCountryResponse;
 

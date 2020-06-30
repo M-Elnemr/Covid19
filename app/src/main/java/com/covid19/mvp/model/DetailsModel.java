@@ -1,9 +1,8 @@
-package com.covid19.model;
+package com.covid19.mvp.model;
 
 import android.util.Log;
 
 import com.covid19.network.RetrofitClient;
-import com.covid19.presenter.DetailsPresenter;
 import com.covid19.responses.CasesByCountryResponse;
 
 import java.util.List;
